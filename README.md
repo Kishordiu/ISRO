@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero-banner.svg" alt="ISRO Web Experience — Aerospace Mission Control" width="100%" />
+  <img src="./assets/hero.png" alt="ISRO Web Experience — Aerospace Mission Control" width="100%" />
 </div>
 
 <p align="center">
