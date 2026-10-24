@@ -16,7 +16,9 @@
 
 ---
 
-## ✦ Mission Overview\n\n> **Data note:** Mission values, network indicators, and incident states in this repository are simulated or illustrative. They are not official ISRO data, telemetry from a real spacecraft, or instructions for a real mission.
+## ✦ Mission Overview
+
+> **Data note:** Mission values, network indicators, and incident states in this repository are simulated or illustrative. They are not official ISRO data, telemetry from a real spacecraft, or instructions for a real mission.
 
 The **ISRO Web Experience** is a front-end mission-control concept by DIU Foundry. It brings sample orbital parameters, ground-station-style status panels, and anomaly-triage interactions into one simulated command interface. It is not affiliated with or connected to ISRO mission systems and does not display verified live spacecraft telemetry.
 
@@ -57,7 +59,7 @@ The **ISRO Web Experience** is a front-end mission-control concept by DIU Foundr
 - **Interactive Telemetry Dashboard** (`src/pages/Dashboard.tsx`) — Real-time tracking of mission parameters, vehicle states, and orbital mechanics calculations.
 - **Ground Station Network Health** (`src/pages/NetworkHealth.tsx`) — Global antenna telemetry, carrier-to-noise ratio ($C/N_0$), and packet error rate diagnostics.
 - **AI Anomaly Detection & Incident Analysis** (`src/pages/IncidentAnalysis.tsx`) — Automated telemetry parsing that detects thermal excursions, attitude drift, and power bus voltage drops.
-- **Cinematic Operator UI** (`src/components/CursorTrail.tsx`) — Fluid atmospheric transitions, spatial coordinate HUDs, and tactical darkroom color grading.
+- **Cinematic Interface** (`src/components/CursorTrail.tsx`) — Fluid atmospheric transitions, spatial coordinate HUDs, and tactical darkroom color grading.
 
 ---
 
