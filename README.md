@@ -2,6 +2,8 @@
   <img src="./assets/hero.png" alt="ISRO Web Experience — Aerospace Mission Control" width="100%" />
 </div>
 
+# ISRO Web Experience — Mission Control Simulation
+
 <p align="center">
   <a href="https://diufoundry.online"><img alt="Studio" src="https://img.shields.io/badge/DIU_FOUNDRY-STUDIO_R%26D-0B192C?style=for-the-badge&logoColor=38BDF8&labelColor=050B14" /></a>&nbsp;
   <img alt="Domain" src="https://img.shields.io/badge/AEROSPACE-MISSION_CONTROL-FF9933?style=for-the-badge&labelColor=050B14" />&nbsp;
