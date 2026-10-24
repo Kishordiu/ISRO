@@ -58,9 +58,9 @@ The **ISRO Web Experience** is a front-end mission-control concept by DIU Foundr
 
 ## ✦ Key Systems & Capabilities
 
-- **Interactive Telemetry Dashboard** (`src/pages/Dashboard.tsx`) — Real-time tracking of mission parameters, vehicle states, and orbital mechanics calculations.
-- **Ground Station Network Health** (`src/pages/NetworkHealth.tsx`) — Global antenna telemetry, carrier-to-noise ratio ($C/N_0$), and packet error rate diagnostics.
-- **AI Anomaly Detection & Incident Analysis** (`src/pages/IncidentAnalysis.tsx`) — Automated telemetry parsing that detects thermal excursions, attitude drift, and power bus voltage drops.
+- **Mission Dashboard** (`src/pages/Dashboard.tsx`) — Interactive views of illustrative mission parameters and sample vehicle-state visualisations.
+- **Network Health View** (`src/pages/NetworkHealth.tsx`) — Ground-station-style charts using sample values; it is not connected to real antenna telemetry.
+- **Incident Analysis View** (`src/pages/IncidentAnalysis.tsx`) — Anomaly-triage interactions for exploring example thermal, attitude, and power-event scenarios.
 - **Cinematic Interface** (`src/components/CursorTrail.tsx`) — Fluid atmospheric transitions, spatial coordinate HUDs, and tactical darkroom color grading.
 
 ---
