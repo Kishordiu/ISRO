@@ -5,28 +5,28 @@
 <p align="center">
   <a href="https://diufoundry.online"><img alt="Studio" src="https://img.shields.io/badge/DIU_FOUNDRY-STUDIO_R%26D-0B192C?style=for-the-badge&logoColor=38BDF8&labelColor=050B14" /></a>&nbsp;
   <img alt="Domain" src="https://img.shields.io/badge/AEROSPACE-MISSION_CONTROL-FF9933?style=for-the-badge&labelColor=050B14" />&nbsp;
-  <img alt="Telemetry" src="https://img.shields.io/badge/TELEMETRY-8.4_GHz_DOWNLINK-10B981?style=for-the-badge&labelColor=050B14" />&nbsp;
+  <img alt="Data status" src="https://img.shields.io/badge/DATA-SIMULATED_MISSION_SCENARIOS-10B981?style=for-the-badge&labelColor=050B14" />&nbsp;
   <img alt="Stack" src="https://img.shields.io/badge/REACT_+_VITE-FRAMER_MOTION-38BDF8?style=for-the-badge&labelColor=050B14" />
 </p>
 
 <p align="center">
-  <b>Reaching for the stars with verifiable aerospace telemetry and empirical mission command.</b><br/>
+  <b>Explore aerospace telemetry concepts through a simulated mission-control interface.</b><br/>
   <em>An interactive mission control workbench simulating deep-space telemetry, satellite network health, and AI incident triage.</em>
 </p>
 
 ---
 
-## ✦ Mission Overview
+## ✦ Mission Overview\n\n> **Data note:** Mission values, network indicators, and incident states in this repository are simulated or illustrative. They are not official ISRO data, telemetry from a real spacecraft, or instructions for a real mission.
 
-The **ISRO Web Experience** is a high-performance mission telemetry console engineered by DIU Foundry. Rather than presenting a static commemorative page, this platform functions as an active mission operations interface—synthesizing orbital trajectories, deep-space communication links, ground station health, and automated anomaly response into a single, cohesive command plane.
+The **ISRO Web Experience** is a front-end mission-control concept by DIU Foundry. It brings sample orbital parameters, ground-station-style status panels, and anomaly-triage interactions into one simulated command interface. It is not affiliated with or connected to ISRO mission systems and does not display verified live spacecraft telemetry.
 
 ```text
  ┌─────────────────────────────────────────────────────────────────────────────┐
  │                           ISRO MISSION CONTROL HUD                          │
  ├─────────────────────┬───────────────────────────────┬───────────────────────┤
- │ SATELLITE TELEMETRY │      NETWORK HEALTH MATRIX    │  AI INCIDENT COMMAND  │
- │ Orbit: Polar / GEO  │ Ground Stations: ISTRAC / DSN │ Anomaly Detection: OK │
- │ Altitude: 384,400km │ Signal Lock: 99.98% Nominal   │ Telecommand: ARMED    │
+ │ SAMPLE ORBIT DATA   │     DEMO NETWORK STATUS      │ TRIAGE DEMONSTRATION  │
+ │ Orbit: illustrative│ Stations: sample labels       │ Status: simulated     │
+ │ Values: demo data   │ Link health: illustrative     │ No live telecommand   │
  └─────────────────────┴───────────────────────────────┴───────────────────────┘
 ```
 
@@ -35,11 +35,11 @@ The **ISRO Web Experience** is a high-performance mission telemetry console engi
 ## 🛰️ Architecture & Dataflow
 
 ```text
-[ SPACE SEGMENT ]
-    │  (S/X-Band RF Downlink · 8.4 GHz)
+[ SIMULATED SPACE SEGMENT ]
+    │  (Sample mission values · not live data)
     ▼
-[ GROUND STATIONS (ISTRAC / BYALALU) ]
-    │  (Raw Telemetry Frames · CCSDS Packet Stream)
+[ ILLUSTRATIVE GROUND-STATION VIEW ]
+    │  (Demonstration telemetry records)
     ▼
 [ TELEMETRY INGESTION ENGINE ] ──► [ RECHARTS HUD MATRIX ]
     │                                     │
